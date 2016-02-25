@@ -5,6 +5,8 @@
   "description": "Tweaks the appearance of the Launchpad website to make it easier to use",
   "version": "0.1",
 
+  "icons": { "128": "icons/launchpad_tweaks_128.png" },
+
   "permissions": [ "https://*.launchpad.net/*" ],
 
   "content_scripts": [ {
