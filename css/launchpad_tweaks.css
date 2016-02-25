@@ -1,0 +1,5 @@
+table.listing tbody tr:not(.thead) tr:hover {
+    background: lightgrey;
+}
+
+
