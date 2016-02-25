@@ -1,5 +1,18 @@
-table.listing tbody tr:not(.thead) tr:hover {
+/* Used in the "Code" section */
+table.listing tbody tr:nth-child(odd) {
+    background: whitesmoke;
+}
+
+table.listing tbody tr:hover {
     background: lightgrey;
 }
 
+/* Used for the "Bugs" section */
+div.listing > div.buglisting-row:nth-child(odd) {
+    background: whitesmoke;
+}
+
+div.listing > div.buglisting-row:hover {
+    background: lightgrey;
+}
 
