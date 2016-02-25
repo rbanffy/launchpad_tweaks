@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Launchpad Tweaks",
+  "description": "Tweaks the appearance of the Launchpad website to make it easier to use",
+  "version": "0.1",
+
+  "permissions": [
+    "tabs", 
+    "http://*/*" 
+  ],
+
+  "content_scripts": [ {
+      "css": [ "css/launchpad_tweaks.css" ],
+      "matches": [ "http://*/*" ],
+      "run_at": "document_end"
+    }
+  ]
+}
