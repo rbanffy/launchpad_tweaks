@@ -12,7 +12,7 @@
 
   "content_scripts": [ {
       "css": [ "css/launchpad_tweaks.css" ],
-      "matches": [ "http://*/*" ],
+      "matches": [ "https://*.launchpad.net/*", "http://*.launchpad.net/*" ],
       "run_at": "document_end"
     }
   ]
