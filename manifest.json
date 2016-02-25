@@ -5,15 +5,13 @@
   "description": "Tweaks the appearance of the Launchpad website to make it easier to use",
   "version": "0.1",
 
-  "permissions": [
-    "tabs", 
-    "http://*/*" 
-  ],
+  "permissions": [ "https://*.launchpad.net/*" ],
 
   "content_scripts": [ {
       "css": [ "css/launchpad_tweaks.css" ],
-      "matches": [ "https://*.launchpad.net/*", "http://*.launchpad.net/*" ],
+      "matches": [ "https://*.launchpad.net/*" ],
       "run_at": "document_end"
     }
-  ]
+  ],
+  "update_url": "https://clients2.google.com/service/update2/crx"
 }
