@@ -16,3 +16,11 @@ div.listing > div.buglisting-row:hover {
     background: lightgrey;
 }
 
+/* Browsing files */
+#logentries tbody tr.blueRow1 {
+    background: whitesmoke;
+}
+
+#logentries tbody tr[class*="blueRow"]:hover {
+    background: lightgrey;
+}
