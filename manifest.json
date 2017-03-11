@@ -3,7 +3,7 @@
 
     "name": "Launchpad Tweaks",
     "description": "Tweaks the appearance of the Launchpad website to make it easier to use",
-    "version": "0.2",
+    "version": "1.0",
 
     "icons": { "128": "icons/launchpad_tweaks_128.png" },
 
